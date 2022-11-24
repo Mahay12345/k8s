@@ -5,7 +5,7 @@ metadata:
 spec:
   replicas: 3
   selector:
-    app: myonlineapp
+    app: myvertexpod
     version: 2.6.2
   template:
     metadata:
@@ -14,7 +14,7 @@ spec:
         version: 2.6.2
     spec:
       containers:
-        - name: myapp
+        - name: myvertexapp-container
           image: nginx
           ports:
             - containerPort: 80
