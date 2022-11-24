@@ -13,8 +13,8 @@ spec:
         app: myvertexpod
         version: 2.6.2
     spec:
-      containers:
-        - name: myvertexapp-container
-          image: nginx
-          ports:
-            - containerPort: 80
+       containers:
+          - name: myvertexapp-container
+            image: nginx
+            ports:
+               - containerPort: 80
